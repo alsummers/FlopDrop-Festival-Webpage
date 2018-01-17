@@ -64,8 +64,11 @@ nav li {
     height: 100%;
     width: 100%;
     display: block;
-    border-radius: 5%;
+    border-radius: 2%;
     padding-bottom: 12%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px black;
 
 }
 
@@ -77,8 +80,11 @@ nav li {
     height: 100%;
     width: 100%;
     display: block;
-    border-radius: 5%;
+    border-radius: 2%;
     padding-bottom: 12%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px black;
 }
 
 #vip{
@@ -89,8 +95,11 @@ nav li {
     height: 100%;
     width: 100%;
     display: block;
-    border-radius: 5%;
+    border-radius: 2%;
     padding-bottom: 12%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px black;
     
 }
 
@@ -105,4 +114,10 @@ footer{
     display: inline-block;
     float: bottom;
     clear: both;
+}
+button {
+    display: inline;
+    margin: 1rem;
+    justify-content: center;
+    
 }
