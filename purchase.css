@@ -1,0 +1,108 @@
+
+body {
+    background: #000000 url(img/RaveOn.jpg) no-repeat center fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    position: relative;
+    font-family: "Bungee", cursive;
+    color: white;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 10px;
+}
+nav li {
+    float: right;
+    padding: 4px;
+}
+.navIndex a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    float: right;
+    border-radius: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+.navIndex a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    float: right;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+.ticketContent{
+    width: 50%;
+    height: 100%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+
+}
+
+
+#threeDay{
+    font-style: 'Bungee', cursive;
+    color: white;
+    background-image: url('./img/campgrounds_banner.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5%;
+    padding-bottom: 12%;
+
+}
+
+#oneDay{
+    font-style: 'Bungee', cursive;
+    color: white;
+    background-image: url('./img/DayPass_banner.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5%;
+    padding-bottom: 12%;
+}
+
+#vip{
+    font-style: 'Bungee', cursive;
+    color: white;
+    background-image: url('./img/VIP_banner.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5%;
+    padding-bottom: 12%;
+    
+}
+
+footer{
+    bottom: 0%;
+    width: 100%;
+    height: 30px;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    float: bottom;
+    clear: both;
+}
