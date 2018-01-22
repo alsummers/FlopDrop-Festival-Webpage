@@ -67,6 +67,9 @@ nav li {
     text-decoration: none;
     color: white;
 }
+.lineup li {
+    margin-right: 10%;
+}
 .lineup li a{
     text-decoration: none;
     color: white;
@@ -124,6 +127,10 @@ p {
     background-color: white;
     color: black;
     border-radius: 2%;
+}
+.infoLogos img{
+    width: 90%;
+    height: auto;
 }
 
 footer{
