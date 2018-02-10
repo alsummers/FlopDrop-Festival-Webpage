@@ -48,12 +48,13 @@ nav li {
     padding-left: 4px;
 }
 .ticketContent{
-    width: 50%;
+    width: 65%;
     height: 100%;
-    margin-left: 15%;
+    margin-left: 17%;
     margin-bottom: 10%;
-
+    justify-content: center;
 }
+
 
 
 #threeDay{
@@ -116,9 +117,19 @@ footer{
     clear: both;
 }
 button {
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-family: "Bungee", cursive;
+    border-radius: 4px;
+    border: white 2px solid;
     display: inline;
     margin-left: 45%;
     margin-top: 1rem;
     text-align: center;
     
+}
+button:hover {
+    background-color: white;
+    color: black;
 }
